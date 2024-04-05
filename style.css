@@ -1,0 +1,33 @@
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+header {
+  height: 105px;
+  width: 100%;
+  gap: 10px;
+  position: fixed;
+  background-color: blueviolet;
+}
+.menu_bar {
+  padding: 20px 170px;
+  display: flex;
+  justify-content: space-around;
+}
+.home_logo {
+  font-family: Kalnia;
+  font-size: 48px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+ol {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+li {
+  font-size: 28px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Roboto;
+}
