@@ -6,8 +6,6 @@ header {
   height: 105px;
   width: 100%;
   gap: 10px;
-  position: fixed;
-  background-color: blueviolet;
 }
 .menu_bar {
   padding: 20px 170px;
@@ -30,4 +28,45 @@ li {
   font-size: 28px;
   color: rgba(255, 255, 255, 1);
   font-family: Roboto;
+  font-weight: 400;
+}
+.header_background {
+  height: 885px;
+  width: 1924px;
+  background-image: url(images/header_background.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.visiting_link {
+  margin-top: 243px;
+  margin-left: 50%;
+  width: 324px;
+  height: 210px;
+}
+.visiting_link h3 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 40px;
+  cursor: pointer;
+}
+.visiting_link h1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 64px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  cursor: pointer;
+}
+.visiting_link button {
+  background-color: rgba(255, 103, 0, 1);
+  border-radius: 20px;
+  width: 178px;
+  height: 68px;
+  border: none;
+  margin-left: 50%;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 1);
+  transform: translate(-50%);
+}
+.visiting_link button:hover {
+  background-color: rgba(200, 81, 0, 1);
 }
